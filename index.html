@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="https://github.com/0-l" />
+    <link rel="stylesheet" type="text/css" href="css/awoo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200|Roboto:100,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>~</title>
+  </head>
+
+  <body>
+    <div id="search">
+      <div>
+        <input type="text" spellcheck="false" placeholder="search" />
+        <button class="close"><i class="material-icons">&#xE5CD;</i></button>
+        <ul class="search-engines"></ul>
+      </div>
+    </div>
+
+    <div id="links" class="-">
+      <div id="tabs" class="!-">
+        <cols>
+          <ul class="- indicator"></ul>
+          <div class="+ widgets col-end">
+            <p class="time">00<span>:00</span></p>
+          </div>
+        </cols>
+      </div>
+
+      <div id="panels">
+        <ul class="boards" active>
+          <div class="links">
+            <li>
+              <h1>ROW 1</h1>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <h1>ROW 2</h1>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <h1>ROW 3</h1>
+              <a href="#">Link</a>
+            </li>
+          </div>
+        </ul>
+
+        <ul class="music">
+          <div class="links">
+            <li><a href="https://soundcloud.com/">soundcloud</a></li>
+          </div>
+        </ul>
+
+        <ul class="tech">
+          <div class="links">
+            <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div class="|" id="todo">
+      <button class="+ add"><img src="img/add.png" /></button>
+      <div class="+ addTodo">
+        <input
+          type="text"
+          value=""
+          placeholder="stuff to do ..."
+          spellcheck="false"
+        />
+      </div>
+      <rows class="items">
+        <div class="todo-header">
+          <h1 class="+">TO DO</h1>
+          <p class="+ todo-counter">
+            <span class="todo-count">0</span>|
+            <span class="done-count">0</span>
+          </p>
+        </div>
+      </rows>
+    </div>
+
+    <script type="text/javascript" src="js/strftime.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/powerline.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+  </body>
+</html>
